@@ -197,3 +197,36 @@ footer p {
   text-align: center;
   padding: 10px;
 }
+
+
+input, textarea{
+  margin: 5px;
+  border: 1px solid dimgray;
+  padding: 5px;
+  font-size: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+textarea{
+  grid-area: ta;
+  height: 40px;
+  resize: none;
+}
+
+#btn-submit{
+  cursor: pointer;
+  background: dimgray;
+  transition: 0.2s;
+  width: 150px;
+}
+
+#btn-submit:hover{
+  background: darkgreen;
+  color: white;
+}
+
+fieldset{
+  align-items: center;
+  text-align: center;
+}

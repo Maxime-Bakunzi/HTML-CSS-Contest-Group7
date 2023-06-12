@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Info</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  
-  <!-- Navigation -->
-  <nav>
-    <div class="home"><a href="index.html">RwandaConnect</a></div> 
-    <div class="nav-page">
-     <ul class="nav-pages">
-       <li><a href="services.html">Services</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="contact.html">Contact Us</a></li>
-     </ul></div> 
-   </nav>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="home"><a href="index.html">RwandaConnect</a></div>
+      <div class="nav-page">
+        <ul class="nav-pages">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  
-  <!-- Contact Us Page -->
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p>Have a question or need assistance? Fill out the form below, and our team will gladly help you. We aim to respond to all inquiries promptly. Your feedback is valuable to us in improving our services and website experience.</p>
-  
-  </section>
+    <!-- Contact Us Page -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Have a question or need assistance? Fill out the form below, and our
+        team will gladly help you. We aim to respond to all inquiries promptly.
+        Your feedback is valuable to us in improving our services and website
+        experience.
+      </p>
+      <form method="post" id="id_form" action="">
+        <fieldset form="id_form">
+          <legend>My request</legend>
+          <p>
+            First Name:
+            <input type="text" name="user_name" placeholder="Fisrt name" />
+          </p>
+          <p>
+            Last Name:
+            <input type="text" name="first name" placeholder="Last Name" />
+          </p>
+          <p>Adress email: <input type="text" name="Email" /></p>
+          <p>Choose your request</p>
+          <select name="choixo5" id="">
+            <option value="text"></option>
+            <option value="">Request about the Travel</option>
+            <option value="">Request about the Entertainment</option>
+            <option value="">Others</option>
+          </select>
+          <p>
+            <textarea
+              name="type"
+              id="type"
+              cols="30"
+              rows="10"
+              placeholder="Type here"
+            ></textarea>
+          </p>
+          <p>
+            <input
+              type="submit"
+              name="valid_form"
+              value="Submit"
+              id="btn-submit"
+            />
+          </p>
+        </fieldset>
+      </form>
+    </section>
 
-  <footer>
-    <p>© 2023 RwandaConnect. All rights reserved.</p>
-  </footer>
-
-
-</body>
+    <footer>
+      <p>© 2023 RwandaConnect. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
