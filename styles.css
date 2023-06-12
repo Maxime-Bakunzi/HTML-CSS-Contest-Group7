@@ -272,3 +272,48 @@ fieldset{
   align-items: center;
   text-align: center;
 }
+/* Services*/
+.services{
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bolder;
+}
+
+.service img {
+  width: 400px;
+  height: 250px;
+  transition: box-shadow 0.3s;
+}
+.service img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.service {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-category{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid silver;
+  padding-bottom: 20px;
+}
+.service-category h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.intro{
+  border-bottom: 2px solid silver;
+  padding-bottom: 20px;
+}
+
