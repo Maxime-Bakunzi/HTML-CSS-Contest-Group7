@@ -24,3 +24,6 @@ RwandaConnect is a team of passionate individuals with extensive technical exper
 
 # Contact Us
 Have a question or need assistance? Fill out the form on our website, and our team will gladly help you. We aim to respond to all inquiries promptly. Your feedback is valuable to us in improving our services and website experience.
+
+# Website Link
+> [RwandaConnect](https://maxime-bakunzi.github.io/HTML-CSS-Contest-Group7/)
