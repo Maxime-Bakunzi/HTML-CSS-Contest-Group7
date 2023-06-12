@@ -158,9 +158,8 @@ nav a:hover {
   background-color: #f1f1f1;
   padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about h2 {
@@ -199,6 +198,24 @@ nav a:hover {
   font-style: italic;
   color: gray;
 }
+
+.about div {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+
 
 
 /* Contact Us */
