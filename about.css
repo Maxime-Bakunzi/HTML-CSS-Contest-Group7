@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae9f3;
+}
+
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3e7e7;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+#Imag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#Imag div {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f4f5f6; /* Set the desired background color */
+    padding: 10px;
+}
+
+#Imag img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+    color: #777;
+}
